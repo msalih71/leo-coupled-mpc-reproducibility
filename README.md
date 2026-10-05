@@ -43,7 +43,7 @@ The notebooks use **manual ZIP upload**. `TAES_R8_resource_sensitivity_colab.ipy
 
 | Path | Contents |
 |---|---|
-| `code/` | Simulator, predictor, estimator, QP/PI policies, campaigns, verification and document generators |
+| `code/` | Simulator, predictor, estimator, QP/PI policies, campaigns and numerical verification |
 | `data/` | Calibration inputs, fixed weather-index snapshot, campaign JSON/CSV and selected computed traces |
 | `external_validation/` | Swarm/JB2008 scripts and derived comparison CSVs |
 | `figures/` | Standalone scientific figures |
