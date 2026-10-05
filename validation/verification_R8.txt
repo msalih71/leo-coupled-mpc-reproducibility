@@ -1,0 +1,32 @@
+OK saving vs PI range (np.float64(19.0), np.float64(26.3))
+OK saving vs MPC-T range (np.float64(19.0), np.float64(26.4))
+OK rule range (np.float64(1.9), np.float64(15.4))
+OK RMS range (np.float64(0.47), np.float64(3.56))
+OK viol total 0.0
+OK TIM rms log range (0.11207304502637865, 0.39430632495423856)
+OK MSIS model spread (0.061145465821027756, 0.10486102104187012)
+OK coverage (0.9376459793126459, 0.993702035368702)
+OK sigma bar (0.3261505912106066, 0.20106581589809527)
+OK timing {'solve_median_ms': 0.407541250012855, 'solve_p99_ms_max': 1.6633696099734123, 'solve_max_ms': 132.6535310000736, 'loop_median_ms': 0.8241705000386901, 'loop_p99_ms_max': 3.7876171200412037, 'loop_max_ms': 133.33834699994895, 'cpu': 'AMD EPYC 9V74 80-Core Processor\nBIOS CPU @ 0.0GHz', 'python': '3.12.14'}
+OK G5-400 swmpc slack 3.788996643607496
+OK G5-400 mpcT slack/max (58.11354595749124, np.float64(38.917774483468385))
+OK G5-400 minA, minE (np.float64(5.7096883715515805), np.float64(886.5488790151876))
+OK msis21 SW-MPC vs PI [('pid', 81.0), ('swmpc', 64.7)]
+OK peaks G4/G5 [0.83, 1.1, 0.66, 0.92, 1.09, 0.63]
+OK nosw fuel diff pct 0.18941457925399463
+OK nosw RMS comparison [('Feb2022_550km', np.float64(0.54), np.float64(0.47)), ('Feb2022_400km', np.float64(1.15), np.float64(1.03)), ('Mar2015_550km', np.float64(0.61), np.float64(0.62)), ('Mar2015_400km', np.float64(1.36), np.float64(1.32)), ('May2024_550km', np.float64(0.94), np.float64(0.98)), ('May2024_400km', np.float64(3.56), np.float64(3.1))]
+OK fuel decomposition residual 0.01725278099687957
+OK MPC-T vs PI tracking 5
+OK external model ordering 5
+OK altitude selection sensitivity 6
+OK causal Swarm range (0.337, 0.632)
+OK observed replay floor warning 5
+PASS: 90 recorded runs, paired archival agreement, QP/resource checks, clean/marked source identity.
+PASS: 153 distinct runs, failures retained, strict endpoint/resource comparisons and manuscript source identity.
+PASS: complete fixed factorial design; equal full-run initial energy; independently recomputed pairing and matching; all failures retained; legacy phase-zero identity; clean/marked source identity.
+PASS: 360 unique fixed-design runs; geometry-only completion; 120/120 PI/MPC pairs qualify; equal endpoints and zero sampled floor violations; all energy and fuel balances <1e-8 Wh; recovery is non-MPC.
+PASS: all 360 repeated runs preserve fuel, event RMS, final battery and minimum energy exactly; the endpoint-altitude metric now uses the post-propagation state.
+PASS: disabling the recovery option preserves every non-timing R6 output array exactly for the May2024/400km/seed0 regression case in the same environment.
+PASS: 504 unique runs,252 independently checked pairs,14 fixed cases;36 baseline regressions
+Energy closure max Wh 4.18367562815547e-11 propulsion/fuel closure max Wh 9.185896487906575e-11
+Matched pairs 230
