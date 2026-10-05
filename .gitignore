@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.aux
+*.log
+*.out
+*.synctex.gz
+data/*checkpoint.json
+data/timeseries.pkl
+external_validation/observed_results/
+external_validation/jb_sources/
+highlighted/fig*.pdf
+external_validation/jb_driver_check/
+
+# Public repository: numerical code/data only.
+*.tex
+*.docx
+*.doc
+*.pdf
+manuscript/
+highlighted/
+correspondence/
+reviewer_reports/
+editorial/
+drafts/

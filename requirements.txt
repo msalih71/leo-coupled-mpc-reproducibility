@@ -1,0 +1,8 @@
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+matplotlib==3.10.8
+pymsis==0.13.0
+quadprog==0.1.13
+spaceweather==0.4.2
+requests>=2.31,<3

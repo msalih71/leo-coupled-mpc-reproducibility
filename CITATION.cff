@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this reproducibility repository and associated manuscript."
+title: "Model Predictive Control of Coupled Thrust and Drag Area for LEO Station-Keeping Under Energy Constraints"
+type: software
+version: R8
+authors:
+  - family-names: Salih
+    given-names: Mahgoub A.
+    orcid: "https://orcid.org/0000-0001-8652-9842"
+  - family-names: Shirgawi
+    given-names: Mohamed Y.
