@@ -1,0 +1,18 @@
+{
+  "n_runs": 360,
+  "n_pairs": 120,
+  "n_matched": 120,
+  "max_endpoint_altitude_difference_m": 0.0113661093637347,
+  "n_positive": 40,
+  "n_negative": 80,
+  "g5_individual_min": 7.631719704489628,
+  "g5_individual_max": 7.963694199246271,
+  "group_saving_min": -1.4841472858058755,
+  "group_saving_max": 7.893587737205005,
+  "max_closure_Wh": 3.910827217623592e-11,
+  "max_fuel_closure_Wh": 1.200533006340265e-10,
+  "ablation_group_min": -0.17008582146809637,
+  "ablation_group_max": 0.321433986047167,
+  "qp_attempts": 241920,
+  "qp_failures": 0
+}

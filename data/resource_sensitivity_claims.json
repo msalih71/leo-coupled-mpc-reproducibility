@@ -1,0 +1,13 @@
+{
+  "n_runs": 504,
+  "n_pairs": 252,
+  "n_matched": 230,
+  "g5_matched": 36,
+  "g5_min": 6.616703710752967,
+  "g5_max": 8.803741458346135,
+  "qp_failures": 0,
+  "max_energy_closure": 4.18367562815547e-11,
+  "max_fuel_closure": 9.00399754755199e-11,
+  "unserved_pi": 40122.287285027356,
+  "unserved_mpc": 40698.58645885068
+}
